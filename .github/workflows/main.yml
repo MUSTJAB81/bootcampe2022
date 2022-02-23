@@ -29,7 +29,7 @@ jobs:
         with:
          version: 12
       - name: npm setup
-        uses: ng-easy/npm-setup@v1.7.2
+        uses: ng-easy/npm-setup@v2-beta
  
       - name: creating build
         run : npm run-script build
