@@ -34,11 +34,11 @@ jobs:
         with:
           cmd: install
       - name: creating build
-        run : npm script build
+        run : yarn build
           
           
       - name: install surge
-        run: npm install -g surge
+        run: yarn install -g surge
       - name: deploying on surge
         run: surge ./build http://myfirstapp.react-2022.surge.sh/ --token ${{secrets.SURGE_TOKEN2}}
            
