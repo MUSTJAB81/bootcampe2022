@@ -29,10 +29,10 @@ jobs:
         with:
          version: 12
       - name: Install yarn
-        run : npm install yarn --g
+        run: npm install yarn --g
       
       - name: creating build
-        run : yarn build
+        run: yarn build
           
           
       - name: install surge
