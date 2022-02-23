@@ -32,7 +32,7 @@ jobs:
         uses: ng-easy/npm-setup@v1.7.2
  
       - name: creating build
-        run : npm build
+        run : npm script build
           
           
       - name: install surge
