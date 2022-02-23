@@ -30,7 +30,7 @@ jobs:
          version: 12
       
       - name: creating build
-        run : npm run-script build
+        run : npm build
           
           
       - name: install surge
